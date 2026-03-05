@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+>
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Feature">
+            <directory suffix="Test.php">./src/Admin/Cities/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Admin/Courses/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Admin/Events/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Admin/Feedbacks/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Admin/FieldOfStudyType/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Admin/Hobbies/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Admin/IndustryTypes/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Admin/Jobs/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Admin/Mentors/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Admin/News/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Admin/Students/Tests/Feature</directory>
+
+
+            <directory suffix="Test.php">./src/Company/Cities/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Company/IndustryTypes/Tests/Feature</directory>
+<!--            <directory suffix="Test.php">./src/Company/Jobs/Tests/Feature</directory>-->
+
+
+            <directory suffix="Test.php">./src/Student/Cities/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/Courses/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/Certifications/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/Educations/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/Events/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/FieldOfStudyType/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/Hobbies/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/Jobs/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/Feedbacks/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/Projects/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/Skills/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/WorkExperienceJobRoles/Tests/Feature</directory>
+            <directory suffix="Test.php">./src/Student/WorkExperiences/Tests/Feature</directory>
+        </testsuite>
+    </testsuites>
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">./app</directory>
+        </include>
+    </coverage>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="BCRYPT_ROUNDS" value="4"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <!-- <env name="DB_CONNECTION" value="sqlite"/> -->
+        <!-- <env name="DB_DATABASE" value=":memory:"/> -->
+        <env name="MAIL_MAILER" value="array"/>
+        <env name="QUEUE_CONNECTION" value="sync"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="TELESCOPE_ENABLED" value="false"/>
+    </php>
+</phpunit>

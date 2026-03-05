@@ -1,0 +1,18 @@
+id: 42602
+name: moxybase
+environments:
+  production:
+    database: primed-ehr
+    storage: fog-prod
+    domain: api-moxybase.10qbit.com
+    memory: 1024
+    cli-memory: 512
+    runtime: 'php-8.2:al2'
+    concurrency: 0
+    warm: 10
+    build:
+      - 'COMPOSER_MIRROR_PATH_REPOS=1 composer install'
+      - 'php artisan event:cache'
+#    deploy:
+#      - 'php artisan migrate:fresh --seed --force'
+      # - 'npm ci && npm run build && rm -rf node_modules'
