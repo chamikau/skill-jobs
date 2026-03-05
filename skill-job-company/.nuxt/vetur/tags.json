@@ -1,0 +1,38 @@
+{
+  "Notification": {
+    "description": "Auto imported from components/Notification.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "RichBoxEditor": {
+    "description": "Auto imported from components/RichBoxEditor.vue"
+  },
+  "SearchSelect": {
+    "description": "Auto imported from components/SearchSelect.vue"
+  },
+  "Select": {
+    "description": "Auto imported from components/Select.vue"
+  },
+  "Table": {
+    "description": "Auto imported from components/Table.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "LayoutsDashboardAdminFooter": {
+    "description": "Auto imported from components/Layouts/DashboardAdmin/Footer.vue"
+  },
+  "LayoutsDashboardAdminHeader": {
+    "description": "Auto imported from components/Layouts/DashboardAdmin/Header.vue"
+  },
+  "LayoutsDashboardAdminSidebar": {
+    "description": "Auto imported from components/Layouts/DashboardAdmin/Sidebar.vue"
+  },
+  "LayoutsDashboardAdminOrganizationFooter": {
+    "description": "Auto imported from components/Layouts/DashboardAdminOrganization/Footer.vue"
+  },
+  "LayoutsDashboardAdminOrganizationHeader": {
+    "description": "Auto imported from components/Layouts/DashboardAdminOrganization/header.vue"
+  }
+}

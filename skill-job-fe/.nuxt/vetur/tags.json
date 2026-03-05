@@ -1,0 +1,44 @@
+{
+  "FileNewsIdView": {
+    "description": "Auto imported from components/FileNewsIdView.vue"
+  },
+  "FileView": {
+    "description": "Auto imported from components/FileView.vue"
+  },
+  "MultiSelect": {
+    "description": "Auto imported from components/MultiSelect.vue"
+  },
+  "Notification": {
+    "description": "Auto imported from components/Notification.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "SearchSelect": {
+    "description": "Auto imported from components/SearchSelect.vue"
+  },
+  "Select": {
+    "description": "Auto imported from components/Select.vue"
+  },
+  "SelectNoneBorder": {
+    "description": "Auto imported from components/SelectNoneBorder.vue"
+  },
+  "SingleFileUpload": {
+    "description": "Auto imported from components/SingleFileUpload.vue"
+  },
+  "Table": {
+    "description": "Auto imported from components/Table.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "LayoutsDashboardUserFooter": {
+    "description": "Auto imported from components/Layouts/DashboardUser/Footer.vue"
+  },
+  "LayoutsDashboardUserHeader": {
+    "description": "Auto imported from components/Layouts/DashboardUser/Header.vue"
+  },
+  "LayoutsDashboardUserSidebar": {
+    "description": "Auto imported from components/Layouts/DashboardUser/Sidebar.vue"
+  }
+}

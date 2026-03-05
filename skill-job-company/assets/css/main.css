@@ -1,0 +1,74 @@
+:root {
+  /*--brand_color: #6558F5;*/
+  --brand_color: #273c75;
+  --tab_active_color: #edf2f9;
+}
+
+.navbar-dark{
+  background-color: var(--brand_color) !important;
+}
+
+.table-responsive .dropdown,
+.table-responsive .btn-group,
+.table-responsive .btn-group-vertical {
+  position: static;
+}
+
+a.nuxt-link-active {
+  /*border-left: 2px solid var(--brand_color) !important;*/
+  /*0d6efd*/
+}
+
+/*.list-group-item {*/
+/*  background: none;*/
+/*  border-bottom: none;*/
+/*  border-right: 2px solid #e6e8ed !important;*/
+/*}*/
+
+.btn-primary {
+  --tblr-btn-bg: var(--brand_color)!important;
+  --tblr-btn-color: var(--brand_color) !important;
+  color: white!important;
+}
+
+.btn-primary:hover {
+  background-color: var(--brand_color) !important;
+  color: white!important;
+}
+.btn-primary:focus {
+  background-color: var(--brand_color) !important;
+  color: white!important;
+}
+
+.btn-outline-primary {
+  --tblr-btn-color: var(--brand_color) !important;
+}
+
+.text-primary {
+  color: var(--brand_color) !important;
+}
+
+.page-item.active .page-link {
+  background-color: var(--brand_color) !important;
+  border-color: var(--brand_color) !important;
+}
+
+.btn-link {
+  color: var(--brand_color) !important;
+}
+
+.btn-link:hover {
+  color: var(--brand_color) !important;
+  border-color: var(--brand_color) !important;
+}
+
+.no-drop {cursor: no-drop;}
+.sticky-col {
+  position: -webkit-sticky!important;
+  position: sticky!important;
+}
+.wrapper {
+  /*position: relative!important;*/
+  overflow: auto!important;
+  white-space: nowrap!important;
+}

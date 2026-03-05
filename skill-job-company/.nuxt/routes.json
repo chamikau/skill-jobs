@@ -1,0 +1,280 @@
+[
+  {
+    "name": "admin-confirm-password",
+    "path": "/admin/confirm-password",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\confirm-password.vue",
+    "chunkName": "pages/admin/confirm-password"
+  },
+  {
+    "name": "admin-dashboard",
+    "path": "/admin/dashboard",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\dashboard.vue",
+    "chunkName": "pages/admin/dashboard"
+  },
+  {
+    "name": "admin-job",
+    "path": "/admin/job",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\job\\\\index.vue",
+    "chunkName": "pages/admin/job/index"
+  },
+  {
+    "name": "admin-organizations",
+    "path": "/admin/organizations",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\organizations\\\\index.vue",
+    "chunkName": "pages/admin/organizations/index"
+  },
+  {
+    "name": "admin-profile",
+    "path": "/admin/profile",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\profile.vue",
+    "chunkName": "pages/admin/profile",
+    "children": [
+      {
+        "name": "admin-profile-2fa",
+        "path": "2fa",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\profile\\\\2fa\\\\index.vue",
+        "chunkName": "pages/admin/profile/2fa/index"
+      },
+      {
+        "name": "admin-profile-general",
+        "path": "general",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\profile\\\\general.vue",
+        "chunkName": "pages/admin/profile/general"
+      },
+      {
+        "name": "admin-profile-invitations",
+        "path": "invitations",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\profile\\\\invitations\\\\index.vue",
+        "chunkName": "pages/admin/profile/invitations/index"
+      },
+      {
+        "name": "admin-profile-password",
+        "path": "password",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\profile\\\\password.vue",
+        "chunkName": "pages/admin/profile/password"
+      }
+    ]
+  },
+  {
+    "name": "admin-settings",
+    "path": "/admin/settings",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings.vue",
+    "chunkName": "pages/admin/settings",
+    "children": [
+      {
+        "name": "admin-settings-collections",
+        "path": "collections",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\collections\\\\index.vue",
+        "chunkName": "pages/admin/settings/collections/index"
+      },
+      {
+        "name": "admin-settings-consultations",
+        "path": "consultations",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\consultations\\\\index.vue",
+        "chunkName": "pages/admin/settings/consultations/index"
+      },
+      {
+        "name": "admin-settings-products",
+        "path": "products",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\products\\\\index.vue",
+        "chunkName": "pages/admin/settings/products/index"
+      },
+      {
+        "name": "admin-settings-roles",
+        "path": "roles",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\roles\\\\index.vue",
+        "chunkName": "pages/admin/settings/roles/index"
+      },
+      {
+        "name": "admin-settings-tags",
+        "path": "tags",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\tags\\\\index.vue",
+        "chunkName": "pages/admin/settings/tags/index"
+      },
+      {
+        "name": "admin-settings-users",
+        "path": "users",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\users\\\\index.vue",
+        "chunkName": "pages/admin/settings/users/index"
+      },
+      {
+        "name": "admin-settings-collections-create",
+        "path": "collections/create",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\collections\\\\create.vue",
+        "chunkName": "pages/admin/settings/collections/create"
+      },
+      {
+        "name": "admin-settings-consultations-create",
+        "path": "consultations/create",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\consultations\\\\create.vue",
+        "chunkName": "pages/admin/settings/consultations/create"
+      },
+      {
+        "name": "admin-settings-products-create",
+        "path": "products/create",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\products\\\\create.vue",
+        "chunkName": "pages/admin/settings/products/create"
+      },
+      {
+        "name": "admin-settings-roles-create",
+        "path": "roles/create",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\roles\\\\create.vue",
+        "chunkName": "pages/admin/settings/roles/create"
+      },
+      {
+        "name": "admin-settings-tags-create",
+        "path": "tags/create",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\tags\\\\create.vue",
+        "chunkName": "pages/admin/settings/tags/create"
+      },
+      {
+        "name": "admin-settings-users-invitation",
+        "path": "users/invitation",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\users\\\\invitation.vue",
+        "chunkName": "pages/admin/settings/users/invitation"
+      },
+      {
+        "name": "admin-settings-collections-id",
+        "path": "collections/:id",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\collections\\\\_id.vue",
+        "chunkName": "pages/admin/settings/collections/_id"
+      },
+      {
+        "name": "admin-settings-consultations-id",
+        "path": "consultations/:id",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\consultations\\\\_id\\\\index.vue",
+        "chunkName": "pages/admin/settings/consultations/_id/index"
+      },
+      {
+        "name": "admin-settings-products-id",
+        "path": "products/:id",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\products\\\\_id.vue",
+        "chunkName": "pages/admin/settings/products/_id"
+      },
+      {
+        "name": "admin-settings-roles-id",
+        "path": "roles/:id",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\roles\\\\_id.vue",
+        "chunkName": "pages/admin/settings/roles/_id"
+      },
+      {
+        "name": "admin-settings-tags-id",
+        "path": "tags/:id",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\tags\\\\_id.vue",
+        "chunkName": "pages/admin/settings/tags/_id"
+      },
+      {
+        "name": "admin-settings-users-id",
+        "path": "users/:id",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\users\\\\_id.vue",
+        "chunkName": "pages/admin/settings/users/_id"
+      },
+      {
+        "name": "admin-settings-consultations-id-form",
+        "path": "consultations/:id/form",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\settings\\\\consultations\\\\_id\\\\form.vue",
+        "chunkName": "pages/admin/settings/consultations/_id/form"
+      }
+    ]
+  },
+  {
+    "name": "admin-auth-forgot-password",
+    "path": "/admin/auth/forgot-password",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\auth\\\\forgot-password.vue",
+    "chunkName": "pages/admin/auth/forgot-password"
+  },
+  {
+    "name": "admin-auth-login",
+    "path": "/admin/auth/login",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\auth\\\\login.vue",
+    "chunkName": "pages/admin/auth/login"
+  },
+  {
+    "name": "admin-auth-reset-password",
+    "path": "/admin/auth/reset-password",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\auth\\\\reset-password.vue",
+    "chunkName": "pages/admin/auth/reset-password"
+  },
+  {
+    "name": "admin-auth-signup",
+    "path": "/admin/auth/signup",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\auth\\\\signup.vue",
+    "chunkName": "pages/admin/auth/signup"
+  },
+  {
+    "name": "admin-auth-two-factor-challenge",
+    "path": "/admin/auth/two-factor-challenge",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\auth\\\\two-factor-challenge.vue",
+    "chunkName": "pages/admin/auth/two-factor-challenge"
+  },
+  {
+    "name": "admin-auth-two-factor-challenge-recovery",
+    "path": "/admin/auth/two-factor-challenge-recovery",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\auth\\\\two-factor-challenge-recovery.vue",
+    "chunkName": "pages/admin/auth/two-factor-challenge-recovery"
+  },
+  {
+    "name": "admin-job-create-job",
+    "path": "/admin/job/create-job",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\job\\\\create-job.vue",
+    "chunkName": "pages/admin/job/create-job",
+    "children": [
+      {
+        "name": "admin-job-create-job-general",
+        "path": "general",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\job\\\\create-job\\\\general.vue",
+        "chunkName": "pages/admin/job/create-job/general"
+      },
+      {
+        "name": "admin-job-create-job-id-description",
+        "path": ":id?/description",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\job\\\\create-job\\\\_id\\\\description.vue",
+        "chunkName": "pages/admin/job/create-job/_id/description"
+      }
+    ]
+  },
+  {
+    "name": "admin-organizations-invitations",
+    "path": "/admin/organizations/invitations",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\organizations\\\\invitations\\\\index.vue",
+    "chunkName": "pages/admin/organizations/invitations/index"
+  },
+  {
+    "name": "admin-organizations-company-create",
+    "path": "/admin/organizations/company/create",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\organizations\\\\company\\\\create.vue",
+    "chunkName": "pages/admin/organizations/company/create"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "admin-job-edit-job-id",
+    "path": "/admin/job/edit-job/:id?",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\job\\\\edit-job\\\\_id.vue",
+    "chunkName": "pages/admin/job/edit-job/_id",
+    "children": [
+      {
+        "name": "admin-job-edit-job-id-description",
+        "path": "description",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\job\\\\edit-job\\\\_id\\\\description.vue",
+        "chunkName": "pages/admin/job/edit-job/_id/description"
+      },
+      {
+        "name": "admin-job-edit-job-id-general",
+        "path": "general",
+        "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\job\\\\edit-job\\\\_id\\\\general.vue",
+        "chunkName": "pages/admin/job/edit-job/_id/general"
+      }
+    ]
+  },
+  {
+    "name": "admin-organizations-company-id",
+    "path": "/admin/organizations/company/:id?",
+    "component": "D:\\\\chamika\\\\project\\\\moxybase\\\\moxybase-company\\\\pages\\\\admin\\\\organizations\\\\company\\\\_id.vue",
+    "chunkName": "pages/admin/organizations/company/_id"
+  }
+]
